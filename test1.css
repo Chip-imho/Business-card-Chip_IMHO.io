@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@400;700&display=swap');
+
+.my-photo{
+    
+}
+body {
+    background-color: black;
+    color: azure;
+    font-family: "Tourney", sans-serif;
+}
+.light {
+    font-size: 25px;
+    color: hsla(313, 100%, 80%, 0.781);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a.light:hover {
+    color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+h1 {
+    color: hsla(313, 100%, 80%, 0.781);
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+li {
+    list-style-position: inside;
+}
+
+span::after {
+    content: "_";
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
