@@ -11,16 +11,23 @@ body {
     animation: typing 2s steps(18), blink-caret 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid;
     display: inline-block;
+}
+
+.cursor {
+    animation: blink-cursor 1s step-end infinite;
 }
 
 @keyframes typing {
     from { width: 0 }
 }
 
+@keyframes blink-cursor {
+    50% { opacity: 0; }
+}
+
 @keyframes blink-caret {
-    50% { border-color: transparent }
+    50% { border-color: transparent; }
 }
 
 .light {
@@ -42,29 +49,10 @@ h1 {
 }
 
 li {
-    list-style-position: inside;
+    list-style: none;
 }
 
 img {
     max-width: 100%;
     height: auto;
-}
-
-@media (max-width: 768px) {
-    .sidebar {
-        display: none;
-    }
-    .main-content {
-        width: 100%;
-    }
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.item {
-    flex: 1 1 200px;
-    margin: 10px;
 }
