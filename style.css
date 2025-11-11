@@ -22,6 +22,15 @@ body {
     display: inline-block;
 }
 
+#typing-text,
+#typing-text1 {
+    animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
+    white-space: normal;
+    overflow: hidden;
+    display: inline-block;
+    max-width: 90vw; 
+    margin: 0 auto;
+}
 
 
 .cursor {
@@ -68,6 +77,7 @@ h1 {
     color: white;
     text-shadow: 0 0 30px #980a0a, 0 0 40px #fff, 0 0 50px #ff0000;
 }
+
 
 
 
