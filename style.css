@@ -7,18 +7,31 @@ body {
 }
 
 #typing-text {
-    width: 24ch; 
-    animation: typing 2s steps(20), blink-caret 0.5s step-end infinite alternate;
+    width: 60ch; 
+    animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+#typing-text1 {
+    color: hsl(313, 49%, 59%);
+    width: 60ch; 
+    animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
 }
 
 
+
 .cursor {
     animation: blink-cursor 1s step-end infinite;
 }
 
+.dot {
+    color: hsl(313, 49%, 59%);
+    animation: blink-cursor 1s step-end infinite;
+}
 @keyframes typing {
     from { width: 0 }
 }
@@ -40,21 +53,21 @@ body {
 
 a.light:hover {
     color: white;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+    text-shadow: 0 0 30px #980a0a, 0 0 40px #fff, 0 0 50px #ff0000;
 }
+
 
 h1 {
     color: hsla(313, 100%, 80%, 0.781);
     font-size: 2rem;
     margin-top: 40px;
+    margin-bottom: 0px;
 }
 
-li {
-    list-style: none;
+#typing-text1:hover {
+    color: white;
+    text-shadow: 0 0 30px #980a0a, 0 0 40px #fff, 0 0 50px #ff0000;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+
 
