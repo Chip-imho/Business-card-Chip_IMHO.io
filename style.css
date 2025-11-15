@@ -33,6 +33,7 @@ ul.links{
     color: hsl(313, 49%, 59%);
     font-size: 3vw;
     text-decoration: none;
+    margin-top: 0;
 }
 
 
@@ -139,6 +140,7 @@ span.dot{
 @keyframes blink-caret {
     50% { border-color: transparent; }
 }
+
 
 
 
