@@ -1,73 +1,147 @@
-@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geostar&display=swap');
+
+
+
+
+
+
+
 
 body {
+    font-family: "Geostar", sans-serif;
     background-color: black;
-    color: azure;
-    font-family: "Tourney", sans-serif;
+/*    background-image: url('pexels-rafael-guajardo-194140-604684.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-#typing-text {
-    width: 60ch; 
-    animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    display: inline-block;
-}
-#typing-text1 {
+
+
+
+
+
+
+
+
+
+
+
+ul.links{
+    list-style-type: circle;
     color: hsl(313, 49%, 59%);
-    width: 60ch; 
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+
+.light{
+    color: hsl(313, 49%, 59%);
+}
+a.light:hover{
+    color: #fff;
+    text-shadow: 0 0 10px hsl(288, 100%, 50%), 0 0 20px #690f5a, 0 0 30px hsl(315, 61%, 44%);
+}
+div{
+    /* test*/
+}
+
+
+
+
+
+
+
+
+#Chip_IMHO{
+    color: hsl(313, 49%, 59%);
+    font-size: 4vw;
+    overflow: hidden;
+    border-bottom: 0px;
+/*    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); */
+}
+#Chip_IMHO:hover{
+    /* test */
+
+
+
+
+}
+h1#Chip_IMHO.light{
+    margin-bottom: 0px;
+
+
+
+
+}
+span#typing-text{
+    margin-top: 0px;
+}
+span#typing-text_1{
+    margin-top: 0px;
+}
+span.dot{
+    color: hsl(313, 43%, 44%);
+}
+
+
+
+
+
+
+#typing-text{
+    color: hsl(313, 43%, 44%);
+    font-size: 2vw;
+    width: 100vw;
     animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
 }
-
+#typing-text_1{
+    color: hsl(0, 0%, 99%);
+    font-size: 2vw;
+    width: 100vw;
+    animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
 
 
 .cursor {
+    color: hsl(0, 0%, 100%);
     animation: blink-cursor 1s step-end infinite;
 }
+
+
+
 
 .dot {
     color: hsl(313, 49%, 59%);
     animation: blink-cursor 1s step-end infinite;
 }
+
+
 @keyframes typing {
     from { width: 0 }
 }
+
 
 @keyframes blink-cursor {
     50% { opacity: 0; }
 }
 
+
+
+
 @keyframes blink-caret {
     50% { border-color: transparent; }
 }
 
-.light {
-    font-size: 20px;
-    color: hsla(313, 100%, 80%, 0.781);
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-a.light:hover {
-    color: white;
-    text-shadow: 0 0 30px #980a0a, 0 0 40px #fff, 0 0 50px #ff0000;
-}
 
 
-h1 {
-    color: hsla(313, 100%, 80%, 0.781);
-    font-size: 2rem;
-    margin-top: 40px;
-    margin-bottom: 0px;
-}
-
-#typing-text1:hover {
-    color: white;
-    text-shadow: 0 0 30px #980a0a, 0 0 40px #fff, 0 0 50px #ff0000;
-}
 
 
 
