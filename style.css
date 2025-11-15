@@ -100,18 +100,17 @@ span.dot{
 
     width: 65vw;
     animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    display: inline-block;
+    white-space: normal;
+
+    display: block;
 }
 #typing-text_1{
     color: hsl(0, 0%, 99%);
 
     width: 65vw;
     animation: typing 2s steps(100), blink-caret 5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    display: inline-block;
+    white-space: normal;
+    display: block;
 }
 
 
