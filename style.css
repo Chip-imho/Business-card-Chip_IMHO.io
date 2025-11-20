@@ -67,5 +67,9 @@ h1#Chip_IMHO {
 
 }
 p#copyText{
+    color:rgb(227, 103, 255);
+}
+p#copyText:active{
+    text-shadow: 0 0 20px hsl(288, 100%, 50%), 0 0 30px #690f5a, 0 0 40px hsl(315, 61%, 44%);
     color: white;
 }
