@@ -11,7 +11,7 @@ function animateDots() {
 animateDots();
 
 
-const text2 = "Enthusiast of IT-world, scripting my way through the chaos ";
+const text2 = "test ";
 let j = 0;
 
 function typeLine2() {
