@@ -15,7 +15,7 @@ h1#Chip_IMHO {
     font-size: 30px;
 }
 .container #typing-text {
-    font-size: 25px;
+    font-size: 20px;
     text-shadow: 2px 2px rgb(52, 0, 64);
     color: rgb(121, 0, 148);
 }
@@ -56,4 +56,5 @@ h1#Chip_IMHO {
     0%, 50% { opacity: 1; }
     51%, 100% { opacity: 0; }
 }
+
 
