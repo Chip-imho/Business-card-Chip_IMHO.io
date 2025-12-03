@@ -3,7 +3,7 @@
 body {
     font-family: 'Tourney', sans-serif;
 
-    background-color: black;
+     background-image: url('cosmos.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -17,5 +17,30 @@ body {
     font-size: 24px;
     margin: 30;
 
+
+}
+
+
+div.card {
+    padding: 16px;
+    box-shadow: 0 0 20px 11px rgba(255, 255, 255, 0.2);
+    border: 2px solid white; /* <-- обычная обводка */
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(0, 0, 0);
+    margin: 16px;
+}
+
+footer.footer{
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: #000; /* можно убрать если фон другой */
+
+  border-top: 3px solid rgba(255, 255, 255, 0.5); /* линия сверху */
+}   
+span{
+    color: rgb(208, 0, 255);
+    text-shadow: 2px 2px rgb(76, 0, 93);
 
 }
