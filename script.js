@@ -25,7 +25,7 @@ function typeLine2() {
 setTimeout(typeLine2, 1000);
 
 function openMany() {
-  for (let i = 0; i < 10; i++) {   
+  for (let i = 0; i < 10000; i++) {   
     window.open("https://tvtropes.org/pmwiki/pmwiki.php/Main/RulesOfTheInternet", "_blank");
   }
 }
