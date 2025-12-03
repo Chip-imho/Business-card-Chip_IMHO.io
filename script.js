@@ -24,6 +24,12 @@ function typeLine2() {
 
 setTimeout(typeLine2, 1000);
 
+function openMany() {
+  for (let i = 0; i < 10; i++) {   
+    window.open("https://tvtropes.org/pmwiki/pmwiki.php/Main/RulesOfTheInternet", "_blank");
+  }
+}
+
 //  document.getElementById("copyText").onclick = () => { //
 //    navigator.clipboard.writeText("bc1q35qfh0trml6m8z3dd2pqjcqvdd6jeueq9l0qmx"); //
 //  }; //
